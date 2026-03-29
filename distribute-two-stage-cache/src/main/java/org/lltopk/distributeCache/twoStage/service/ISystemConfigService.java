@@ -1,4 +1,4 @@
-package org.lltopk.distributeRedisCache.service;
+package org.lltopk.distributeCache.twoStage.service;
 
 
 import org.lltopk.distributeCache.common.model.form.UpdateSystemConfigForm;

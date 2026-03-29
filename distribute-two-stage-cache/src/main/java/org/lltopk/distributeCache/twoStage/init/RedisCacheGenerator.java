@@ -1,8 +1,8 @@
-package org.lltopk.distributeRedisCache.init;
+package org.lltopk.distributeCache.twoStage.init;
 
 import lombok.extern.slf4j.Slf4j;
 import org.lltopk.distributeCache.common.model.po.SystemSettingPo;
-import org.lltopk.distributeRedisCache.mapper.SystemSettingMapper;
+import org.lltopk.distributeCache.twoStage.mapper.SystemSettingMapper;
 import org.springframework.beans.factory.SmartInitializingSingleton;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;

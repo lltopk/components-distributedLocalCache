@@ -1,4 +1,4 @@
-package org.lltopk.distributeRedisCache.mapper;
+package org.lltopk.distributeCache.twoStage.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;

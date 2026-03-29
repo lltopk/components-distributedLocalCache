@@ -1,8 +1,8 @@
-package org.lltopk.distributeRedisCache.controller;
+package org.lltopk.distributeCache.localCache.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.lltopk.distributeCache.common.model.form.UpdateSystemConfigForm;
-import org.lltopk.distributeRedisCache.service.ISystemConfigService;
+import org.lltopk.distributeCache.localCache.service.ISystemConfigService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -31,6 +31,7 @@
 		<module>distribute-cache-common</module>
 		<module>distribute-local-cache</module>
 		<module>distribute-redis-cache</module>
+		<module>distribute-two-stage-cache</module>
 	</modules>
 	<properties>
 		<java.version>17</java.version>
