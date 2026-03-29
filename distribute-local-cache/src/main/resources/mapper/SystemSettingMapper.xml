@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.lltopk.distributeLocalCache.mapper.SystemSettingMapper">
+
+
+    <select id="findByConfigKey" resultType="org.lltopk.distributeCacheCommon.model.po.SystemSettingPo">
+        select * from distributed_cache_system_setting_po where config_key = #{configKey}
+    </select>
+    <select id="selectAll" resultType="org.lltopk.distributeCacheCommon.model.po.SystemSettingPo">
+        select * from distributed_cache_system_setting_po
+    </select>
+</mapper>
